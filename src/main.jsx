@@ -8,8 +8,8 @@ import {
 } from "react-router-dom";
 import "./index.css"
 import Error from './pages/Error';
-import Landing from './pages/Landing/Landing';
-const router = createBrowserRouter([{path:"/", element:<Landing/>},{path:"*", element:<Error/>}])
+import HomePage from './pages/HomePage';
+const router = createBrowserRouter([{path:"/", element:<HomePage/>},{path:"*", element:<Error/>}])
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
