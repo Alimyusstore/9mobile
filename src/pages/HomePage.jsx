@@ -6,6 +6,10 @@ import Packages from './Landing/Packages'
 import Switch from './Landing/Switch'
 import Ig9iteApp from './Landing/Ig9iteApp'
 import BlogPost from './Landing/BlogPost'
+import Event from './Landing/Event'
+import CustomerReview from './Landing/CustomerReview'
+import NinEnrollment from './Landing/NinEnrollment'
+import Faq from './Landing/Faq'
 
 const HomePage = () => {
   return (
@@ -16,6 +20,10 @@ const HomePage = () => {
         <Switch/>
         <Ig9iteApp/>
         <BlogPost/>
+        <Event/>
+        <CustomerReview/>
+        <NinEnrollment/>
+        <Faq/>
     </Landing>
   )
 }

@@ -14,13 +14,13 @@ const Slides = () => {
       setToggle(id);
       // localStorage.setItem('toggle',toggle);
     }
-    setInterval(() =>{
-      toggle < slides.length ? setToggle(toggle + 1) : setToggle(1);
-      // localStorage.setItem('toggle',toggle);
-    }, 5000)
-    // useEffect((id)=>{
-    //   handleSlide(id)
-    // }, [toggle])
+    useEffect(()=>{
+      setInterval(() =>{
+       
+        toggle < slides.length ? setToggle(toggle + 1) : setToggle(1);
+        // localStorage.setItem('toggle',toggle);
+      }, 5000)
+    }, [toggle])
 
     return (
       <div

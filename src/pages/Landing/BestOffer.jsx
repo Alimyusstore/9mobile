@@ -31,7 +31,7 @@ const BestOffer = () => {
           <IoArrowForwardCircleSharp className="sm:text-5xl  text-3xl text-[#023a51] " />
         </div>
       </div>
-      <div className="sm:flex space-y-10 sm:space-y-0 mb-0">
+      <div className="sm:flex px-10 space-y-10 sm:space-y-0 mb-0">
         {cards.map((card, i) => <Card key={i} {...card}/>)}
       </div>
     </div>

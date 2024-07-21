@@ -94,7 +94,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-[#006749] w-full h-20"></div>
+      <div className="bg-[#006749] w-full h-20 mt-20 sm:mt-0"></div>
     </div>
   );
 }

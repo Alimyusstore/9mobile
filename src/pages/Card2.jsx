@@ -7,7 +7,7 @@ const Card2 = ({header2, text, image, id, style, width, textWidth}) => {
         id === 1 ? "bg-[#fff2ee]" :  id===2 ? " bg-[#f0f8ff]":"bg-[#f6f6f6]"
       } rounded-2xl p-10`}
     > 
-      <div className={`hover:scale-[1.025] ${width} space-y-10 ${style}`}>
+      <div className={`hover:scale-[1.02] ${width} space-y-10 ${style}`}>
         <div className={`space-y-10 ${textWidth}`}>
             <div className="space-x-2">
               {buttons.map((button, i) => (

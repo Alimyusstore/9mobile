@@ -37,7 +37,7 @@ let cards = [
               <Card2 key={i} {...card} id={card.id} width={"w-[450px]"} />
             ))}
         </div>
-        <div className="mt-10">
+        <div className="mt-10 mx-10">
           {cards
             .filter((card) => card.id == 3)
             .map((card, i) => (

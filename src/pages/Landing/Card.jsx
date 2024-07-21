@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { IoIosInformationCircle } from "react-icons/io";
+import Button from './Button';
 
 const Card = ({image, header2, text }) => {
   return (
@@ -16,9 +17,10 @@ const Card = ({image, header2, text }) => {
             <IoIosInformationCircle className="inline-block mt-[0.15rem]" />
             <p className="text-[14px]">Terms and Conditions Apply</p>{" "}
           </div>{" "}
-          <button className="bg-[#d6e22a] p-2 px-4 rounded-2xl text-[14px]">
+          {/* <button className="bg-[#d6e22a] p-2 px-4 rounded-2xl text-[14px]">
             Learn more
-          </button>
+          </button> */}
+          <Button bnText={"Learn more"} />
         </div>
       </div>
     </div>
