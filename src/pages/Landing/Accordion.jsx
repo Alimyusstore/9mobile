@@ -15,9 +15,9 @@ const Accordion = ({ outerText, onClick, compare, open, innerText }) => {
       <div
         className={`${
           compare ? "hidden" : open ? "block" : "hidden"
-        } border-t-[1px] m-2`}
+        } border-t-[1px] m-2 p-3 text-[#758495]`}
       >
-        <p>{innerText}</p>
+        <p>{innerText()}</p>
       </div>
     </div>
   );
